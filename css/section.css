@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root{
+
+    /* FONTS */
+    --font-inter: 'Inter', sans-serif;
+
+    /* COLORS */
+    --gray-500: #667085;
+    --gray-900: #101828;
+    --firebrick: #8E2424;
+    --almond: #F7E3E3;
+}
+
+.conteudo-vagas-abertas{
+    padding: 5rem;
+    text-align: center;
+}
+
+.vagas-abertas-titulo{
+    color: var(--firebrick);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    font-family: var(--font-inter);
+    padding: 0.7rem;
+    text-decoration: var(--almond);
+}
+
+.conteudo-titulo-section{
+    color: var(--gray-900);
+    font-family: var(--font-inter);
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+}
+
+.conteudo-paragrafo-section{
+    color: var(--gray-500);
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+}

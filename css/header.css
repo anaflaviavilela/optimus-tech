@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root {
+
+    /*FONTES DOS TEXTOS*/
+   --font-inter: 'Inter', sans-serif; 
+   
+   
+   /*CORES DAS FONTES*/
+   --font-gray: #667085;
+   --font-white: #FFFFFF;
+
+   /* CORES DOS BOTÕES */
+   --vinho-botao: #8E2424;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-inter);
+    font-size: 16px;
+}
+
+img{
+    padding: 1rem 5rem;
+}
+
+.ancoras-cabecalho{
+    display: flex;
+    margin-right: auto;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--font-gray);
+}
+
+.botao-cabecalho{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    margin-right: 5rem;
+}
+
+.botao-cabecalho-entrar{
+    padding: 0.5rem;
+}
+
+.botao-cabecalho-cadastrar{
+    background-color: var(--vinho-botao);
+    text-decoration: none;
+    padding: 0.6rem 1.5rem;
+    color: var(--font-white);
+    border-radius: 0.5rem;
+}
+
+

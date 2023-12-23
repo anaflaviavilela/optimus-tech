@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root{
+
+    /* FONTES */
+    --font-inter: 'Inter', sans-serif;
+
+    /* CORES */
+    --cor-vinho: #8E2424;
+    --cor-gray-900: #101828;
+    --cor-gray-500: #667085;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding-top: 4rem;
+}
+
+.conteudo-sobre-nos{
+    font-size: 16px;
+    font-family: var(--font-inter);
+    color: var(--cor-vinho);
+    font-weight: 600;
+}
+
+.conteudo-titulo{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cor-gray-900);
+    font-family: var(--font-inter);
+}
+
+.conteudo-paragrafo{
+    font-size: 20px;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    text-align: center;
+    color: var(--cor-gray-500);
+}
+
+.conteudo-container {
+    display: flex;
+    padding-top: 4rem;
+    justify-content: center;
+}
+
+.conteudo-container-sub{
+    flex-direction: column;
+    text-align: start;
+    gap: 3rem;
+    justify-content: center;
+    margin: 0 3rem;
+    padding-left: 2rem;
+}
+
+.conteudo-container-numero{
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--cor-vinho);
+}
+
+.conteudo-container-titulo{
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-gray-900);
+    padding: 0.5rem 0;
+}
+
+.conteudo-container-paragrafo{
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-gray-500);
+}
