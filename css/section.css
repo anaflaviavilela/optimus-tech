@@ -6,6 +6,8 @@
     --font-inter: 'Inter', sans-serif;
 
     /* COLORS */
+    --gray-300: #E0E0E0;
+    --gray-400: #98A2B3;
     --gray-500: #667085;
     --gray-900: #101828;
     --firebrick: #8E2424;
@@ -43,4 +45,41 @@
     font-size: 20px;
     text-align: center;
     padding: 1rem;
+}
+
+.img-section{
+    padding: 3rem;
+}
+
+.titulo-design-desenvolvimento{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--cor-gray-900);
+    padding-bottom: 2rem;
+    text-align: start;
+    margin-left: 30rem;
+}
+
+#vagas-id{
+    margin: 0 30rem 2rem 30rem;
+    border: 1px solid var(--gray-300);
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+    text-align: start;
+}
+
+.titulo-vaga{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--cor-gray-900);
+    margin-bottom: 1rem;
+}
+
+.paragrafo-vaga{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--cor-gray-500);
 }
