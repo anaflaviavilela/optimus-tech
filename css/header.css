@@ -57,4 +57,11 @@ a{
     border-radius: 0.5rem;
 }
 
+.ancoras-cabecalho-menu:hover{
+    text-decoration: underline;
+}
+
+.botao-cabecalho-cadastrar:hover{
+    background-color: var(--font-gray);
+}
 
